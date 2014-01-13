@@ -1,0 +1,20 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-01-13 22:05:45
+hint
+project --topLevelPackage com.my
+hint
+jpa setup --provider HIBERNATE --database POSTGRES 
+hint
+entity jpa --class ~.model.Product
+hint
+hint relationships
+hint fields
+hint field other
+hint field type
+field string --fieldName name --class Product --notNull 
+field number --fieldName price --class Product --notNull --value 0.0 --type float
+hint
+perform tests
+hint
+web mvc setup
+hint
+gwt setup
